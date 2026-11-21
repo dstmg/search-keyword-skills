@@ -39,6 +39,6 @@ def install(target,platform='all'):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--target',required=True,type=Path,help='Agent skill parent directory')
-    parser.add_argument('--platform',choices=['all','xianyu','xiaohongshu','douyin'],default='all')
+    parser.add_argument('--platform',choices=['all','xianyu','xiaohongshu','douyin','taobao'],default='all')
     args=parser.parse_args()
     print('Installed projects:',install(args.target.resolve(),args.platform))
