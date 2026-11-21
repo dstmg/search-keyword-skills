@@ -8,7 +8,7 @@
 | 小红书 | [xiaohongshu-keyword-skill](https://github.com/dstmg/xiaohongshu-keyword-skill) | `yao-geo-xiaohongshu` | 本次核对源码、许可证和固定版本下载；未重跑平台采集 |
 | 抖音 | [douyin-keyword-skill](https://github.com/dstmg/douyin-keyword-skill) | `yao-geo-douyin` | 本次核对源码、许可证和固定版本下载；未重跑平台采集 |
 
-| 淘宝 | [taobao-keyword-skill](https://github.com/dstmg/taobao-keyword-skill) | `taobao-keyword-skill` | 仅单词真实验证10条；默认人工输入，完整第二层未验收 |
+| 淘宝 | [taobao-keyword-skill](https://github.com/dstmg/taobao-keyword-skill) | `taobao-keyword-skill` | 4次独立第一层查询27条；默认人工输入，完整第二层未验收 |
 
 ## 各平台流程
 
