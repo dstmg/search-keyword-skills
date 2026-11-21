@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checked_at": "2026-11-21",
+  "projects": [
+    {
+      "platform": "xianyu",
+      "label": "闲鱼",
+      "repository": "https://github.com/dstmg/xianyu-keyword-skill",
+      "skill": "xianyu-keyword-skill",
+      "commit": "5b1fab229ea935d03765168fa2b62b13db47c044",
+      "license": "MIT",
+      "validation": "2026-11-21 Chrome/BrowserSkill，两层真实采集：三词根、22查询、47路径、42词"
+    },
+    {
+      "platform": "xiaohongshu",
+      "label": "小红书",
+      "repository": "https://github.com/dstmg/xiaohongshu-keyword-skill",
+      "skill": "yao-geo-xiaohongshu",
+      "commit": "7354a54b8e70a4e3a25e42ead91f1f46c5da51d6",
+      "license": "MIT",
+      "validation": "本次核对公开源码和许可证，未重新登录平台采集"
+    },
+    {
+      "platform": "douyin",
+      "label": "抖音",
+      "repository": "https://github.com/dstmg/douyin-keyword-skill",
+      "skill": "yao-geo-douyin",
+      "commit": "021317d4a2abf824d184bc7133ba4561a4c7c23c",
+      "license": "MIT",
+      "validation": "本次核对公开源码和许可证，未重新登录平台采集"
+    }
+  ]
+}
