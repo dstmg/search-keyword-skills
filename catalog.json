@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "checked_at": "2026-11-21",
+  "checked_at": "2026-11-22",
   "projects": [
     {
       "platform": "xianyu",
@@ -34,13 +34,14 @@
       "label": "淘宝",
       "repository": "https://github.com/dstmg/taobao-keyword-skill",
       "skill": "taobao-keyword-skill",
-      "commit": "0f025876613d3072e36cfa4fa462de2fc9c7a0a5",
+      "commit": "ee7bcf356dc1bedd2fb83c7d2fd02b29aa55d36e",
       "license": "MIT",
       "modes": [
         "manual_observation",
-        "single_query"
+        "single_query",
+        "scoped_stepwise"
       ],
-      "validation": "2026-11-21四次独立第一层查询、27条；完整第二层和长期运行未验证；默认人工输入优先"
+      "validation": "2026-11-22：面粉完整两层；面粉家用二层9/10分支；指定继续查询为空；最后截图失败保留，167路径158词1未完成"
     }
   ]
 }
