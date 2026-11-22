@@ -7,14 +7,13 @@
 | 闲鱼 | [xianyu-keyword-skill](https://github.com/dstmg/xianyu-keyword-skill) | `xianyu-keyword-skill` | 2026-11-21完成三词根真实两层采集与报告验收 |
 | 小红书 | [xiaohongshu-keyword-skill](https://github.com/dstmg/xiaohongshu-keyword-skill) | `yao-geo-xiaohongshu` | 本次核对源码、许可证和固定版本下载；未重跑平台采集 |
 | 抖音 | [douyin-keyword-skill](https://github.com/dstmg/douyin-keyword-skill) | `yao-geo-douyin` | 本次核对源码、许可证和固定版本下载；未重跑平台采集 |
-
-| 淘宝 | [taobao-keyword-skill](https://github.com/dstmg/taobao-keyword-skill) | `taobao-keyword-skill` | 面粉两层完成；家用词第二层9/10；指定继续查询为空；有1项截图失败 |
+| 淘宝 | [taobao-keyword-skill](https://github.com/dstmg/taobao-keyword-skill) | `taobao-keyword-skill` | 面粉完成两层；面粉家用完成逐项查询，末项单独补查留证 |
 
 ## 各平台流程
 
 闲鱼、小红书、抖音按各自Skill处理两层联想、逐次截图与JSON、路径和唯一词、Excel与持续研究报告。
 
-**淘宝采用独立的保守流程**：默认用户手动输入，Agent观察留证及离线导出。明确授权的单词模式一批只查询一个词；两层计划只生成pending候选，不自动访问、换词或重试。v0.2.0新增明确授权的scoped_stepwise：指定词根、查询数上限和最多一个二级词继续查询，每一步检查再决定，不自动填词循环。面粉已完成两层；面粉家用第二层9/10分支完成，最后截图超时停止，不能把两个根词都称为全完成。默认模式不变，不能按其他平台的批量流程运行。
+**淘宝采用独立的保守流程**：默认用户手动输入，Agent观察留证及离线导出。明确授权的单词模式一批只查询一个词；两层计划只生成pending候选，不自动访问、换词或重试。v0.2.0新增明确授权的scoped_stepwise：指定词根、查询数上限和最多一个二级词继续查询，每一步检查再决定，不自动填词循环。面粉已完成两层；面粉家用的最后一个分支随后单独补查并取得4条联想词，补查与原批次分别记录。默认模式不变，不能按其他平台的批量流程运行。
 
 需要支持浏览器操作和 SKILL.md 的 AI Agent、已登录的目标平台浏览器、Python 及各项目依赖。推荐按 [BrowserSkill官方安装指南](https://github.com/Tencent/BrowserSkill/blob/main/AGENT_INSTALL.md)准备 CLI、扩展和Agent技能；本仓库不分发第三方浏览器组件，不替用户登录。
 
